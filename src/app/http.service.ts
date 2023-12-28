@@ -7,7 +7,7 @@ import { catchError, map, switchMap, tap } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class HttpService {
-  private apiUrl = 'http://localhost:3000/users';
+  private apiUrl = 'https://users-k2ej.onrender.com/users';
   get: any;
 
 
